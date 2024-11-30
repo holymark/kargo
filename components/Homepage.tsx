@@ -94,7 +94,7 @@ const HomePage: React.FC = () => {
                     name="submit"
                     id="submit"
                   >
-                    Track Shipment
+                    Track Waybill
                   </button>
                 </Link>
               </form>
