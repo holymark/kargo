@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+====================================================================
+	Welcome Section
+==================================================================== */
+
+.welcome-section{
+	position:relative;
+	padding:80px 0px 60px;
+}
+
+.welcome-section .content-column{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.welcome-section .content-column .inner-column{
+	position:relative;
+}
+
+.welcome-section .content-column .inner-column .theme-btn{
+	position:relative;
+	margin-left:0px;
+	margin-top:5px;
+}
+
+.welcome-section .image-column{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.welcome-section .image-column .inner-column{
+	position:relative;
+}
+
+.welcome-section .image-column .inner-column .image{
+	position:relative;
+	box-shadow:0px 0px 35px rgba(0,0,0,0.20);
+}
+
+.welcome-section .image-column .inner-column .image img{
+	position:relative;
+	width:100%;
+	display:block;
+}
