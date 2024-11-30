@@ -14,27 +14,28 @@ interface Shipment {
 }
 
 const mockShipments: Shipment[] = [
-  {
-    id: "785005280643",
-    status: "Delivered",
-    deliveryTime: "Tuesday, 10/17/23, 8:56 AM",
-    from: "TEMECULA, CA, US",
-    to: "WARWICK, RI, US",
-    shipDate: "Friday, 10/13/23",
-    service: "FedEx 2Day",
-    specialHandling: "Deliver Weekday",
-  },
-  {
-    id: "785005280644",
-    status: "In Transit",
-    deliveryTime: "Expected Thursday, 12/01/23",
-    from: "LOS ANGELES, CA, US",
-    to: "NEW YORK, NY, US",
-    shipDate: "Monday, 11/27/23",
-    service: "FedEx Ground",
-    specialHandling: "None",
-  },
-];
+    {
+      id: "785005280643",
+      status: "Delivered",
+      deliveryTime: "Tuesday, 10/17/23, 10:30 AM",
+      from: "Kaduna, Nigeria",
+      to: "Abuja, Nigeria",
+      shipDate: "Friday, 10/13/23",
+      service: "Courier Express",
+      specialHandling: "Deliver Weekday",
+    },
+    {
+      id: "785005280644",
+      status: "In Transit",
+      deliveryTime: "Expected Thursday, 12/01/23",
+      from: "Kaduna, Nigeria",
+      to: "Lagos, Nigeria",
+      shipDate: "Monday, 11/27/23",
+      service: "Standard Delivery",
+      specialHandling: "None",
+    },
+  ];
+  
 
 const Dashboard: React.FC = () => {
   const [trackingId, setTrackingId] = useState("");
