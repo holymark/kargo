@@ -6,7 +6,7 @@ type ResponseData = {
   message: string
 }
 
-export const GET = async (res: NextApiResponse) => {
+export const GET = async () => {
   const at = AfricasTalking({
     apiKey: "atsk_5412ba4d79c8b5aa4e319ef7a470c517e28f50f0a255f372324f68a2518e5acb1c124efb",
     username: "sandbox"
